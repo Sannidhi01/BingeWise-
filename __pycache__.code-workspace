@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "__pycache__"
+		},
+		{
+			"path": "static"
+		},
+		{
+			"path": "templates"
+		},
+		{
+			"path": "venv"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "static",
+		"liveServer.settings.port": 5502
+	}
+}

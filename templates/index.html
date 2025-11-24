@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BingeWise</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>BingeWise</h1>
+  <input type="text" id="searchInput" placeholder="Enter a movie name">
+  <button onclick="searchMovie()">Search</button>
+
+  <div id="result"></div>
+  <h3>Recommended to You</h3>
+  <div id="recommendGrid"></div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
