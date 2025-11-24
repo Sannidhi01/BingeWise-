@@ -53,7 +53,7 @@ Integrates with ML model for cluster-based recommendations
 
 🧠 Machine Learning
 
-Preprocessed dataset stored as clustered_movies.csv
+Resultant dataset from ML model stored as clustered_movies.csv
 
 Movies are clustered using DBSCAN for natural similarity grouping
 
