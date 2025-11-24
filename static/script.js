@@ -1,33 +1,4 @@
-// const apiKey = '2a4cfcec'; 
-
-// async function searchMovie() {
-//   const title = document.getElementById("searchInput").value.trim();
-//   const res = await fetch(`https://www.omdbapi.com/?t=${title}&apikey=${apiKey}`);
-//   const data = await res.json();
-// if (data.Response === "True") {
-//   const trailerLink = `https://www.youtube.com/results?search_query=${encodeURIComponent(data.Title + " trailer")}`;
-
-//   document.getElementById("result").innerHTML = `
-//     <h2>${data.Title} (${data.Year})</h2>
-//     <p><strong>Genre:</strong> ${data.Genre}</p>
-//     <p><strong>Actors:</strong> ${data.Actors}</p>
-//     <img src="${data.Poster}" width="200"/><br>
-//     <a href="${trailerLink}" target="_blank">🎬 Watch Trailer on YouTube</a>
-//   `;
-//   fetchRecommendations(title);
-//   }
-
-//   if (data.Response === "True") {
-//     document.getElementById("result").innerHTML = `
-//       <h2>${data.Title} (${data.Year})</h2>
-//       <p><strong>Genre:</strong> ${data.Genre}</p>
-//       <p><strong>Actors:</strong> ${data.Actors}</p>
-//       <img src="${data.Poster}" width="200"/>
-//     `;
-//     fetchRecommendations(title);
-//   } else {
-//     document.getElementById("result").innerHTML = `<p>Movie not found</p>`;
-const apiKey = '2a4cfcec'; 
+const apiKey = '********'; 
 
 async function searchMovie() {
   const title = document.getElementById("searchInput").value.trim();
