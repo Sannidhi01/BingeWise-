@@ -59,7 +59,9 @@ Movies are clustered using DBSCAN for natural similarity grouping
 
 Backend picks movies with the same cluster ID as the searched title.
 
-🏗️ Tech Stack
+---
+
+Tech Stack
 
 Frontend : 
 HTML
