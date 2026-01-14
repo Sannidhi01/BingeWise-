@@ -4,8 +4,9 @@ BingeWise is a Flask-based web application that allows users to search for any m
 It combines Web Development + Machine Learning + API Integration into one practical project.
 
 🚀 Features
+---
 
-🔍 Movie Search
+Movie Search
 
 Search any movie/series by title
 
@@ -18,7 +19,9 @@ IMDb Rating
 Poster
 Trailer link (YouTube search)
 
-🤖 ML-Based Recommendations
+---
+
+ ML-Based Recommendations
 
 A DBSCAN clustering model groups movies based on similarity
 
@@ -31,7 +34,9 @@ Plot
 Rating
 Actors
 
-🖥️ Frontend
+---
+
+Frontend
 
 Built using HTML, CSS, JavaScript
 
@@ -39,7 +44,9 @@ Uses async API calls to interact with Flask backend
 
 Clean, responsive UI with movie cards
 
-🧩 Backend (Flask)
+---
+
+Backend (Flask)
 
 Exposes endpoints for:
 
@@ -51,7 +58,9 @@ Handles CORS
 
 Integrates with ML model for cluster-based recommendations
 
-🧠 Machine Learning
+---
+
+Machine Learning
 
 Resultant dataset from ML model stored as clustered_movies.csv
 
