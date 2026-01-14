@@ -19,8 +19,6 @@ IMDb Rating
 Poster
 Trailer link (YouTube search)
 
----
-
  ML-Based Recommendations
 
 A DBSCAN clustering model groups movies based on similarity
